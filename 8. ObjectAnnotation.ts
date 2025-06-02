@@ -17,3 +17,12 @@ const animal: Animal = {
 };
 
 console.log(animal);
+
+function electricInfo(): { electricName: string; manufacturingDate: string } {
+  return {
+    electricName: "AC",
+    manufacturingDate: "1/12/23",
+  };
+}
+
+console.log(electricInfo());
